@@ -11,30 +11,17 @@
 	* [Bitmaps](#bitmaps)
 	* [User adjustments](#user-adjustments)
 	* [File system](#file-system)
-  * [Notes and Issues](#notes-and-issues)
 
 ## Overview
 
-* Name : ERM19264_UC1609
-* Title : Library for ERM19264-5 v3 LCD  (UC1609C controller)
-* Description : 
+C++ Library for ERM19264-5 v3 LCD (UC1609C controller)
+Raspberry pi PICO library. Inverse, Scroll, rotate and contrast control. 
+Port of my arduino [library](https://github.com/gavinlyonsrepo/ERM19264_UC1609) , More details there. 
 
-1. Raspberry pi PICO RP2040 library.       
-2. Inverse, Scroll, rotate and contrast control. 
-3. 10 ASCII fonts included.
-4. Graphics class included.
-5. Sleep mode.
-6. Bitmaps supported.
-7. Hardware SPI options
-8. Polymorphic print class included to print many data types.
-9. Port of my arduino [library](https://github.com/gavinlyonsrepo/ERM19264_UC1609) , More details there. 
-
-* Author: Gavin Lyons
 * Developed on
 	1. Raspberry pi PICO RP2040
 	2. SDK C++ compiler G++ for arm-none-eabi
 	3. CMAKE , VScode
-
 
 ## Hardware
 
@@ -58,7 +45,6 @@ This wiring Diagram from the manufacturer showing hardware setup connected to an
 
 Hardware SPI. The hardware SPI speed is set at 8MHz you can change this if necessary by changing LCDSPISetup method arguments.
 Spi0 is used in example files but can be changed by passing a different SPI channel.(Spi0 or Spi1) 
-
 
 ### Bitmaps
 
@@ -130,7 +116,3 @@ The default is the Hello world one.
 | text_graphics | Text + graphics  tests |
 | FPS_functions | FPS test & misc functions, rotate , scroll,  etc |
 | bitmap | Shows use of bitmaps methods  |
-
-## Notes and Issues
-
-

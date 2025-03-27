@@ -15,18 +15,12 @@
   
 ## Overview
 
-* Name : ER_OLEDM1_CH1115_PICO
 * Description :
 
-Library to support the ER-OLEDM1.09-1 128X64 OLED Display Module driven by the CH1115 controller 
-
-1. Raspberry pi PICO RP2040 library.      
-2. Invert colour, vertical flip command, rotate  screen,  sleep, fade effect, horizontal scroll and contrast control  functions supported.
-3. 10 ASCII fonts included.
-4. Graphics support included.
-5. Bitmaps supported.
-6. Hardware SPI.
-7. Polymorphic print class included to print many data types.
+C++ Library to support the ER-OLEDM1.09-1 128X64 OLED Display 
+Module driven by the CH1115 controller for raspberry pi PICO.
+Invert colour, vertical flip command, rotate screen, sleep, fade effect, 
+horizontal scroll and contrast control  functions supported.
 
 ## Output
 

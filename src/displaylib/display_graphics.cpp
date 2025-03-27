@@ -1063,9 +1063,6 @@ void displaylib_graphics::drawQuadrilateral(int16_t x0, int16_t y0,int16_t x1, i
 /*!
 	@brief Fills a quadrilateral with the specified color using triangles.
 	This function fills a quadrilateral by dividing it into triangles and filling them individually. 
-	The quadrilateral is filled by calling the `fillTriangle` function three times with appropriate 
-	vertex coordinates. The `useTriangleSplit` parameter determines whether the quadrilateral is divided into
-	two triangles or if only one triangle is used.
 	@param x0 The x-coordinate of the first vertex.
 	@param y0 The y-coordinate of the first vertex.
 	@param x1 The x-coordinate of the second vertex.

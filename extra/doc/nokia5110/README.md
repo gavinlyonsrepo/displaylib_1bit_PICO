@@ -24,19 +24,26 @@
 ## Hardware
 
 The Nokia 5110 is a basic graphic LCD screen for lots of applications.
-GPIO function on RPI, 5 Nokia 5110 LCD lines SPI bus. Use any GPIO user likes for Software SPI.
-For Hardware the user can use any GPIO for reset and data/command line.
+GPIO function on RPI, 5 Nokia 5110 LCD lines SPI bus.
+The user can use any GPIO for reset, data/command line
+and chip select. Clock and data are tied to hardware interface chosen. 
 The driver chip is PCD8544.
 
 Example file set up :
 
-| RPI pin(HW SPI) | RPI pin(SW SPI)| Nokia 5110 LCD |
+const uint mosi_pin = 19;
+const uint sck_pin = 18;
+const uint cs_pin = 17;
+const uint res_pin = 3;
+const uint dc_pin = 2;
+
+| PICO pin(HW SPI) | Nokia 5110 LCD |
 | ------ | ------ | ------ |
-| SPI_CLK | GPIO6 | LCD_CLK Pin 5 clock in |
-| SPI_MOSI | GPIO5 | LCD_DIN Pin 4 data in |
-| GPIO24 | GPIO24 | LCD_DC Pin 3 data/command|
-| SPI_CE0  | GPIO 21 | LCD_CE Pin 2 chip enable |
-| GPIO25 | GPIO25 | LCD_RST Pin 1 reset|
+| sclk pin GPIO 18 (spi0) | LCD_CLK Pin 5 clock in |
+| mosi pin GPIO 19 (spi0) | LCD_DIN Pin 4 data in |
+| DC pin GPIO 2 | LCD_DC Pin 3 data/command|
+| CS pin GPIO 17 | LCD_CE Pin 2 chip enable |
+| Reset pin GPIO 3 | LCD_RST Pin 1 reset|
 
 Connect Nokia 5110 VCC(pin 6)to 3.3V.
 The user may have to adjust LCD contrast and bias settings,

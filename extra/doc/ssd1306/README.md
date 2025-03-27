@@ -21,12 +21,8 @@
 0. Library to support the I2C  OLED Display Module
    driven by the SSD1306 controller for the Raspberry PI PICO rp2040
 1. Invert color, rotate, sleep, scroll and contrast control.
-2. 10 fonts included, fonts can easily be added or removed.
-3. Graphics class included.
-4. Bitmaps supported.
-5. Can support both I2C ports. IC20 or IC21 selected by user.
-6. Tested on 128X64 & 128X32 display size. Should work for 96X16 display size.
-7. Polymorphic print class included to print many data types.
+2. Can support both I2C ports. IC20 or IC21 selected by user.
+3. Tested on 128X64 & 128X32 display size. Should work for 96X16 display size.
 
 * Author: Gavin Lyons
 
