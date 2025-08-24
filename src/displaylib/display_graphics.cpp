@@ -27,7 +27,7 @@ displaylib_graphics::displaylib_graphics(int16_t w, int16_t h) : WIDTH(w), HEIGH
 /*!
 	@brief Write 1 character on OLED.
 	@param  x character starting position on x-axis.
-	@param  y character starting position on x-axis.
+	@param  y character starting position on y-axis.
 	@param  value Character to be written.
 	@return Will return
 		-# Success

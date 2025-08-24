@@ -61,6 +61,8 @@ static const std::array<uint8_t, 12>FontBinaryExample[] =
 
 *Sources*
 
+Fonts can be made from **ttf** files using [this tool.](https://github.com/gavinlyonsrepo/Colossus_LTSM) also written by author. 
+
 1. Some of the fonts packaged with library came from [URL LINK](http://rinkydinkelectronics.com/)
 2. These fonts have horizontally addressed data by default.
 3. They must be converted to vertically addressed font data if user wants them for library.
