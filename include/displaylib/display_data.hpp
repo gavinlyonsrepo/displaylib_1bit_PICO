@@ -22,7 +22,7 @@
 #define display_SDA_SetLow gpio_put(_display_DIN, false)
 ///@endcond
 
-const uint16_t __LibVerNum__ = 200; /**< Library version number 133 = 1.3.3*/
+const uint16_t __LibVerNum__ = 201; /**< Library version number 133 = 1.3.3*/
 
 /*! namespace for the return code enum*/
 namespace DisplayRet{
