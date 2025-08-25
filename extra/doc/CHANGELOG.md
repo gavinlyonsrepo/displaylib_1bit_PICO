@@ -20,3 +20,5 @@
 	* Changed project name from SSD1306_OLED_PICO to displaylib_1bit_PICO
 	* Added support for erm19264, nokia5110 , sh1106 sh1107 and ch1115 displays
 	* Added advanced graphics options.
+* Version 2.0.1 August 2025
+	* Minor update.
