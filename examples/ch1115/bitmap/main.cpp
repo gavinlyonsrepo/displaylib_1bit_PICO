@@ -43,7 +43,7 @@ spi_inst_t *mySpiInst = spi0;
 ERMCH1115 myOLED(myOLEDwidth, myOLEDheight);
 
 // 'screenBuffer', 128x64px "g lyons" + shapes" ,
-// SW used to make https://javl.github.io/image2cpp/ vertical addressing
+// SW used to make https://github.com/gavinlyonsrepo/Guardian_LTSM vertical addressing
 // Define a buffer and fill init it with a bitmap.
 uint8_t screenBuffer[myScreenSize] = {
 		0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xc0, 0xc0, 0xc0, 0xc0, 0xc0, 0xc0, 0xc0, 0xc0, 0xc0,

@@ -1,7 +1,7 @@
 /*!
 * @file bitmap_test_data.hpp
 * @brief Data file to hold bitmap test data
-* 	SW used to make code https://javl.github.io/image2cpp/
+* 	SW used to make code https://github.com/gavinlyonsrepo/Guardian_LTSM
 * @note NOT part of core library just used for testing in examples
     Can be removed in any port or in user applications.
 */

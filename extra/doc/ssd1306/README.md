@@ -78,7 +78,7 @@ Bitmap functions will return an error code in event of an error.
 A horizontal addressed Bitmap's width MUST be divisible by 8. eg, 
 for a bitmap with width=88 and height=48. Bitmap excepted size = (88/8) * 48 = 528 bytes.
 A vertically addressed Bitmap's height MUST be divisible by 8.
-Bitmaps can be turned to data [here at link]( https://javl.github.io/image2cpp/) 
+Bitmaps can be turned to data [here at link](https://github.com/gavinlyonsrepo/Guardian_LTSM) 
 See example file "_BITMAP" for more details.
 
 ## Screenshots
