@@ -31,14 +31,8 @@ The driver chip is PCD8544.
 
 Example file set up :
 
-const uint mosi_pin = 19;
-const uint sck_pin = 18;
-const uint cs_pin = 17;
-const uint res_pin = 3;
-const uint dc_pin = 2;
-
 | PICO pin(HW SPI) | Nokia 5110 LCD |
-| ------ | ------ | ------ |
+| ------ | ------ |
 | sclk pin GPIO 18 (spi0) | LCD_CLK Pin 5 clock in |
 | mosi pin GPIO 19 (spi0) | LCD_DIN Pin 4 data in |
 | DC pin GPIO 2 | LCD_DC Pin 3 data/command|
