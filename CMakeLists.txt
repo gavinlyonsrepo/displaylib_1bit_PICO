@@ -1,6 +1,6 @@
 # Set minimum required version of CMake
 cmake_minimum_required(VERSION 3.20)
-
+set(PICO_BOARD pico)
 # Include build functions from Pico SDK
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
@@ -42,6 +42,11 @@ add_executable(${PROJECT_NAME}
   #examples/nokia5110/bitmap/main.cpp
   #examples/nokia5110/framerate_test/main.cpp
   #examples/nokia5110/text_graphics_functions/main.cpp
+  
+  #examples/ssd1315/hello/main.cpp
+  #examples/ssd1315/text_graphics_functions/main.cpp
+  #examples/ssd1315/bitmap/main.cpp
+  #examples/ssd1315/I2C_test/main.cpp
 
 )
 
@@ -57,6 +62,7 @@ target_sources(pico_displaylib INTERFACE
   ${CMAKE_CURRENT_LIST_DIR}/src/displaylib/ssd1306.cpp
   ${CMAKE_CURRENT_LIST_DIR}/src/displaylib/ch1115.cpp
   ${CMAKE_CURRENT_LIST_DIR}/src/displaylib/erm19264.cpp
+  ${CMAKE_CURRENT_LIST_DIR}/src/displaylib/ssd1315.cpp
   ${CMAKE_CURRENT_LIST_DIR}/src/displaylib/display_graphics.cpp
   ${CMAKE_CURRENT_LIST_DIR}/src/displaylib/display_print.cpp
   ${CMAKE_CURRENT_LIST_DIR}/src/displaylib/display_fonts.cpp

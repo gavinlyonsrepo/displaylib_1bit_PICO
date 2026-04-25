@@ -11,6 +11,8 @@
 #include "display_fonts.hpp"
 #include "display_print.hpp"
 
+// Define to enable advanced graphics functions such as drawArc, drawPolygon, drawEllipse etc. 
+// Default is ON. Can be turned off to save flash space if not needed.
 #define _ADVANCED_GRAPHICS_ENABLE
 
 #ifdef _ADVANCED_GRAPHICS_ENABLE
@@ -128,10 +130,11 @@ class displaylib_graphics : public displaylib_fonts , public Print
 								int16_t delta, uint8_t color);
 	private:
 	/*!
-		@brief Swaps the values of two int16_t variables.
+		@brief   Swaps the values of two int16_t variables.
 		@param a Reference to the first integer.
 		@param b Reference to the second integer.
-		@note This function swaps the values in place without using additional memory.
+		@details This helper function swaps the values in place without 
+				 using additional memory.
 	*/
 	inline void swapInt16display(int16_t& a, int16_t& b) {
 		int16_t t = a;

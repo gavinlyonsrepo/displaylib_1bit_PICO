@@ -22,3 +22,5 @@
 	* Added advanced graphics options.
 * Version 2.0.1 August 2025
 	* Minor update.
+* Version 2.2.0 April 2026
+	* Added support for SSD1315 display.
