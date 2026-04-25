@@ -13,7 +13,7 @@
 
 ## Overview
 
-* Name : SSD1306_OLED_RPI
+* Name : SSD1315_OLED_RPI
 * Description :
 
 0. Library to support the I2C  OLED Display Module
@@ -31,7 +31,6 @@
 3. compiler G++ for arm-none-eabi((15:10.3-2021.07-4)
 4. CMAKE(VERSION 3.18) , VScode(1.84.2)
 5. Linux Mint 22.1
-
 
 ## Test
 

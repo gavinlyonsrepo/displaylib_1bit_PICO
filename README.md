@@ -111,5 +111,6 @@ Zero for success and a positive number for an error code.
 
 ## See Also
 
-Bitmaps can be turned to data using [this tool at link.](https://github.com/gavinlyonsrepo/Guardian_LTSM) also written by author.
-Font data can be made from **ttf** files using [this tool at link.](https://github.com/gavinlyonsrepo/Colossus_LTSM) also written by author.
+Bitmaps can be turned to data using [this tool at link.](https://github.com/gavinlyonsrepo/Guardian_LTSM) . Also written by author.
+
+Font data can be made from **ttf** files using [this tool at link.](https://github.com/gavinlyonsrepo/Colossus_LTSM) . Also written by author.
